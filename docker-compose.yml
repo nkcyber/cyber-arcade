@@ -1,0 +1,15 @@
+services:
+  quake:
+    image: treyyoder/quakejs:latest
+    ports:
+        - "8080:80"
+        - "27960:27960"
+    environment:
+        HTTP_PORT: 8080
+  netris:
+    build: 
+      context: ./netris-docker
+      dockerfile: ./Dockerfile
+    ports:
+      - "4096:4096"
+      - "3996:3996"
