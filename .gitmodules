@@ -1,3 +1,3 @@
-[submodule "among-sus"]
-	path = among-sus
-	url = https://gitlab.com/mcbloch/among-sus
+[submodule "sshtron"]
+	path = sshtron
+	url = https://github.com/zachlatta/sshtron

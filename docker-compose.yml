@@ -1,3 +1,5 @@
+# include:
+#   - among-sus/docker-compose.yml
 services:
   quake:
     image: treyyoder/quakejs:latest
@@ -13,3 +15,7 @@ services:
     ports:
       - "4096:4096"
       - "3996:3996"
+  amongus:
+    image: cfunkhouser/among-sus
+    ports:
+      - "1234:1234"
