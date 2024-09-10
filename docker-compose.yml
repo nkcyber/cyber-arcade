@@ -19,3 +19,10 @@ services:
     image: cfunkhouser/among-sus
     ports:
       - "1234:1234"
+  tron:
+    build: 
+      context: ./netris-docker
+      dockerfile: ./Dockerfile
+    ports:
+      - "2022:22"
+
